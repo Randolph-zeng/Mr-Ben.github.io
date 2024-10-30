@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Mr-Ben: A Meta-Reasoning Benchmark for LLMs</title>
+  <title>MR-Ben: A Meta-Reasoning Benchmark for Evaluating System-2 Thinking in LLMs</title>
   <link rel="icon" type="image/x-icon" href="static/images/mr_favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,7 +52,7 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-1 publication-title">Mr-Ben: A Comprehensive Meta-Reasoning Benchmark for Large Language Models</h1>
+                    <h1 class="title is-1 publication-title">MR-Ben: A Meta-Reasoning Benchmark for Evaluating System-2 Thinking in LLMs</h1>
                     <div class="is-size-5 publication-authors">
                         <!-- Paper authors -->
                         <span class="author-block"><a href="https://scholar.google.com/citations?user=bJAQgdUAAAAJ&hl=en" target="_blank">Zhongshen Zeng</a><sup>1</sup>,</span>
@@ -140,9 +140,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Large language models (LLMs) have shown increasing capability in problem-solving and decision-making, largely based on the step-by-step chain-of-thought reasoning processes. However, it has been increasingly challenging to evaluate the reasoning capability of LLMs. Concretely, existing <b style="color:red;"> outcome-based</b> benchmarks begin to saturate and become less sufficient to monitor the progress. To this end, we present a <strong style="color:red;"> process-based </strong> benchmark Mr.Ben that demands a meta reasoning skill, where LMs are asked to locate and analyse potential errors in automatically generated reasoning steps. 
-            Mr.Ben is a comprehensive benchmark comprising 5,975 questions collected from human experts, covering various subjects such as physics, chemistry, logic, coding, and more.
-            By incorporating this approach, Mr.Ben facilitates a multidimensional evaluation of LLM reasoning abilities. We conducted an extensive assessment of open-source and closed-source LLMs using Mr.Ben, which revealed previously unidentified limitations and weaknesses in their meta-reasoning capabilities across different tasks. 
+            Large language models (LLMs) have shown increasing capability in problem-solving and decision-making, largely based on the step-by-step chain-of-thought reasoning processes. However, it has been increasingly challenging to evaluate the reasoning capability of LLMs. Concretely, existing <b style="color:red;"> outcome-based</b> benchmarks begin to saturate and become less sufficient to monitor the progress. To this end, we present a <strong style="color:red;"> process-based </strong> benchmark MR-Ben that demands a meta-reasoning skill, where LMs are asked to locate and analyse potential errors in automatically generated reasoning steps. Our meta-reasoning paradigm is especially suited for system-2 slow thinking, mirroring the human cognitive process of carefully examining assumptions, conditions, calculations, and logic to identify mistakes. MR-Ben comprises 5,975 questions curated by human experts across a wide range of subjects, including physics, chemistry, logic, coding, and more. Through our designed metrics for assessing meta-reasoning on this benchmark, we identify interesting limitations and weaknesses of current LLMs (open-source and closed-source models). For example, with models like the o1 series from OpenAI demonstrating strong performance by effectively scrutinizing the solution space, many other state-of-the-art models fall significantly behind on MR-Ben, exposing potential shortcomings in their training strategies and inference methodologies.
           </p>
         </div>
       </div>
@@ -462,7 +460,7 @@
       <h2 class="title">BibTeX</h2>
       <pre><code>@article{zeng2024mrben,
         author       = {Zhongshen Zeng and Yinhong Liu and Yingjia Wan and Jingyao Li and Pengguang Chen and Jianbo Dai and Yuxuan Yao and Rongwu Xu and Zehan Qi and Wanru Zhao and Linling Shen and Jianqiao Lu and Haochen Tan and Yukang Chen and Hao Zhang and Zhan Shi and Bailin Wang and Zhijiang Guo and Jiaya Jia},
-        title        = {MR-BEN: A Comprehensive Meta-Reasoning Benchmark for Large Language Models},
+        title        = {MR-Ben: A Meta-Reasoning Benchmark for Evaluating System-2 Thinking in LLMs},
         journal      = {CoRR},
         volume       = {abs/2406.13975},
         year         = {2024},
